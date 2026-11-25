@@ -123,6 +123,8 @@ or a pull request with **what you tried, what came out and how you measured it**
 
 ## More from Klakix
 
+- [clipcheck](https://github.com/klakix-ai/clipcheck): check a generated clip before you use it (camera speed, flicker, frozen frames, unexpected cuts, audio), with a keep / review / regenerate verdict. Local CLI, MCP server and skill.
+- [AI video pricing](https://github.com/klakix-ai/ai-video-pricing): open dataset of video model prices per second across official APIs, fal and Replicate ([table on klakix.com](https://klakix.com/ai-video-pricing)).
 - [Klakix MCP server](https://github.com/klakix-ai/klakix-mcp): generate AI video, images, voice and music from Claude, ChatGPT and Cursor.
 - [Klakix Bridge for Blender](https://github.com/klakix-ai/klakix-blender): let AI agents build blockouts and scenes in Blender.
 - [AI video skills guide](https://klakix.com/ai-video-skills) on klakix.com · [Türkçe rehber](https://aivideoyap.com/yapay-zeka-video-skilleri) on aivideoyap.com.

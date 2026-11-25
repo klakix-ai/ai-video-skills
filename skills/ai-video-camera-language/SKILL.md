@@ -5,7 +5,7 @@ license: MIT
 metadata:
   author: Klakix
   homepage: https://klakix.com/ai-video-skills
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Camera language for AI video
@@ -95,4 +95,13 @@ Full wording for 14 tested moves plus 3 to avoid is in
 ```bash
 python scripts/camera_speed.py shot.mp4 --window 3
 python scripts/camera_speed.py shots/*.mp4 --csv speeds.csv
+```
+
+For a full check of a finished clip, use [clipcheck](https://github.com/klakix-ai/clipcheck): the
+same camera-speed measurement plus flicker, frozen frames, unexpected cuts, black frames and
+audio clipping, with a keep / review / regenerate verdict and a contact sheet.
+
+```bash
+pip install git+https://github.com/klakix-ai/clipcheck
+clipcheck check shot.mp4            # or --json for agents
 ```

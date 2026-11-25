@@ -6,18 +6,32 @@
   },
   "metadata": {
     "description": "Agent Skills for AI video production: camera angles, character consistency, Seedance and Kling prompting, realism, lip sync, pacing and viral formats.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "ai-video-skills",
       "description": "Ten skills for planning, prompting and editing AI video (Seedance, Kling, Veo, MiniMax): shot planning, camera language, character consistency, prompting, realism, dialogue and lip sync, editing and pacing, viral formats, phone screen compositing, 3D previs.",
-      "version": "1.0.0",
-      "author": { "name": "Klakix", "url": "https://klakix.com" },
+      "version": "1.0.1",
+      "author": {
+        "name": "Klakix",
+        "url": "https://klakix.com"
+      },
       "homepage": "https://klakix.com/ai-video-skills",
       "repository": "https://github.com/klakix-ai/ai-video-skills",
       "license": "MIT",
-      "keywords": ["ai-video", "video-generation", "seedance", "kling", "veo", "camera-angles", "character-consistency", "prompt-engineering", "lip-sync", "video-editing"],
+      "keywords": [
+        "ai-video",
+        "video-generation",
+        "seedance",
+        "kling",
+        "veo",
+        "camera-angles",
+        "character-consistency",
+        "prompt-engineering",
+        "lip-sync",
+        "video-editing"
+      ],
       "category": "productivity",
       "source": "./",
       "strict": false,
